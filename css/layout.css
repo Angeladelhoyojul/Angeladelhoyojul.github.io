@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font:14px/1.3 Arial,sans-serif;
+    background-image: url("../imagenes/principal.jpg");
+}
+.container {
+    height: 571px;
+    margin: 30px auto;
+    width: 957px;
+}
