@@ -6,9 +6,9 @@ body {
     font:14px/1.3 Arial,sans-serif;
 }
 body {
-background-image: url("../imagenes/principal.jpg");
-background-attachment: fixed;
-background-size: cover;
+	background-image: url("../imagenes/principal.jpg");
+	background-attachment: fixed;
+	background-size: cover;
 }
 .jumbotron {
 	background-color: rgba(253, 254, 254, 0.6);
@@ -19,14 +19,14 @@ background-size: cover;
 	text-align:center;
 }
 h1{
- color: #008080;
- text-align:center;
- font-size: 300%;
+	color: #008080;
+	text-align:center;
+ f	ont-size: 300%;
 }
 h2{
- color: #004d4d;
- text-align:center;
- font-size: 200%;
+	color: #004d4d;
+	text-align:center;
+	font-size: 200%;
 }
 h3{
 	font-size: 150%;
