@@ -18,3 +18,42 @@ background-size: cover;
 .logo {
 	text-align:center;
 }
+.margen{
+	margin-left:10%;
+	margin-right:10%;	
+}
+.contenedor:hover img {transform:scale(1.1);}
+
+.contenedor {
+	overflow:hidden;
+}
+.caja .contenedor{
+	display: flex;
+	width:179%;
+}
+
+.caja .left{
+	text-align:left;
+	margin-left:20%;
+	margin-top:20%;
+}
+.crece{
+	margin-top:4%;
+	margin-bottom:4%;
+	margin-left:3%;
+	margin-right:10%;
+}
+.caja{
+	display: flex;
+	justify-content: space-between;
+}
+h1{
+ color:#001a4d;
+ text-align:center;
+ margin-top:3%;
+ font-size: 300%;
+ 
+}
+img{
+	margin-top:4%;
+}

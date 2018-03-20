@@ -18,3 +18,29 @@ background-size: cover;
 .logo {
 	text-align:center;
 }
+.margen{
+	margin-left:10%;
+	margin-right:10%;	
+}
+h1{
+ color:#991f00;
+ text-align:center;
+ margin-top:2%;
+ font-size: 300%;
+ 
+}
+img{
+	margin-top:3%;
+}
+h3{
+ color:#ff471a;
+ text-align:center;
+ margin-top:3%;
+ font-size: 300%;
+ margin-bottom:3%;
+}
+iframe{
+	margin-left:10%;
+	margin-top:5%;
+	margin-bottom:5%;
+}

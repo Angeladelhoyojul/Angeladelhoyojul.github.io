@@ -30,6 +30,32 @@ h1{
 	margin-left:10%;
 	margin-right:10%;	
 }
+.contenedor:hover img {
+	transform:scale(1.1);
+}
+.contenedor {
+	overflow:hidden;
+	width:5%;
+}
+.caja .contenedor{
+	display: flex;
+	width:179%;
+	height:100%;
+}
+
+.caja .left{
+	text-align:left;
+	margin-left:20%;
+}
+.crece{
+	margin-left:4%;
+	margin-bottom:4%;
+	margin-top:4%;
+}
+.caja{
+	display:flex;
+	margin-right:8%;
+}
 h3{
  color:#007a99;
  text-align:center;
@@ -41,37 +67,39 @@ h2{
 	margin-bottom:3%;
 }
 .slider {
-	width: 35%;
+	width: 120%;
 	margin: auto;
 	overflow: hidden;
-	border: solid red 2px;
 }
 
 .slider ul {
 	display: flex;
 	padding: 0;
 	width: 200%;
-	animation: cambio 20s infinite alternate linear;
-	border: solid blue 2px;
+	animation: cambio 30s infinite alternate linear;
 }
 
 .slider li {
 	width: 100%;
 	list-style: none;
-	border: solid orange 2px;
 }
 
 .slider img {
 	width: 100%;
-	border: solid pink 2px;
 }
 
 @keyframes cambio {
-	0% {margin-left: 0;}
+	
+	0% {margin-left:0;}
 	
 	50% {margin-left: -100%;}
 
 	100% {margin-right: 75%;}
 	
-	150% {margin-left: -100%;}
+	150% {margin-left: 75%;}
+	
+	200% {margin-left: -100%;}
+}
+.derecha{
+	margin-top:5%;
 }
